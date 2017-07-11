@@ -1,4 +1,8 @@
+h1 {
+  color: red; }
+
 html {
-  font-family: arial; }
+  font-family: arial;
+  color: #333; }
 
 /*# sourceMappingURL=styles.css.map */

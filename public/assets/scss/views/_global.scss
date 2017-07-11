@@ -1,5 +1,14 @@
 //GLOBAL
 
+$paragraph-font: arial;
+$primary-color: #333;
+$header: red;
+
+h1 {
+	color: $header;
+}
+
 html {
-	font-family: arial;
+	font-family: $paragraph-font;
+	color: $primary-color;
 }
