@@ -2,10 +2,16 @@
 
 $paragraph-font: arial;
 $primary-color: #333;
-$header: red;
+$header: black;
 
 h1 {
 	color: $header;
+	text-align: center;
+	background-color: transparent;
+}
+
+h2 {
+	text-align: center;
 }
 
 html {
