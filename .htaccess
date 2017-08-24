@@ -1,5 +1,4 @@
-RewriteEngine on
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html
-Content-Type: text/html; charset=utf-8
+RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
