@@ -54,6 +54,10 @@ p {
   font-family: "Space Mono", monospace;
   font-size: 16px; }
 
+#aboutLink {
+  text-decoration: none;
+  color: #292929; }
+
 @media screen and (max-width: 992px) {
   html {
     background: url("../images/backgroundExpanded.svg") no-repeat;
