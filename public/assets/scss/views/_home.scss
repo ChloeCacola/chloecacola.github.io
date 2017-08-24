@@ -13,7 +13,7 @@ html {
 
 #developerTitle {
 	float: right;
-	margin-right: 10px;
+	margin-right: 20px;
 	font-size: 28px;
 	font-family: "Space Mono", monospace;
 	background: transparent;
@@ -22,7 +22,8 @@ html {
 
 #artistTitle {
 	float: left;
-	margin-left: 10px;
+	margin-left: 15px;
+	margin-top: 10px;
 	background: transparent;
 }
 
@@ -38,5 +39,82 @@ p {
 	margin-bottom: 20px;
 	margin-left: 15px;
 	font-family: "Space Mono", monospace;
-	font-size: 18px;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 992px){
+	//this to be changed to a different image
+	html {
+		background: url("../images/backgroundExpanded.svg")no-repeat;
+		background-size: cover;
+	}
+
+	#artistTitle {
+		float: left;
+	}
+
+	#developerTitle {
+		float: right;
+		font-size: 24px;
+	}
+
+	p {
+		font-size: 16px;
+		margin-top: 100px;
+	}
+	
+	#about {
+		margin-top: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	html {
+		background: #f8f8f8;
+	}
+
+	#tech {
+		margin-bottom: 30px;
+	}
+	
+	#developerTitle {
+		float: none;
+		color: blue;
+		text-align: center;
+	}
+
+	#artistTitle {
+		float: none;
+	}
+
+	#art {
+		text-align: center;
+		background: #ffb477;
+	}
+
+	#about {
+		padding: 10px;
+		padding-left: 0px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+		background: #ffb477;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	// this to be changed to a different image
+	html {
+		background: #f8f8f8; 
+	}
+
+	#developerTitle {
+		color: red;
+	}
+
+	#about {
+		margin-top: 0px;
+	}
 }
