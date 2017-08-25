@@ -78,7 +78,7 @@ p {
   #about {
     margin-top: 100%; } }
 @media screen and (max-width: 767px) {
-  #homeHTML {
+  #homeHtml {
     background: #f8f8f8; }
 
   #tech {
