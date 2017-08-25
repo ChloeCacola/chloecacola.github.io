@@ -60,7 +60,7 @@ p {
   color: #292929; }
 
 @media screen and (max-width: 992px) {
-  html {
+  #homeHTML {
     background: url("../images/backgroundExpanded.svg") no-repeat;
     background-size: cover; }
 
@@ -78,7 +78,7 @@ p {
   #about {
     margin-top: 100%; } }
 @media screen and (max-width: 767px) {
-  html {
+  #homeHTML {
     background: #f8f8f8; }
 
   #tech {
@@ -106,7 +106,7 @@ p {
     text-align: center;
     background: #ffb477; } }
 @media screen and (max-width: 576px) {
-  html {
+  #homeHtml {
     background: #f8f8f8; }
 
   #developerTitle {

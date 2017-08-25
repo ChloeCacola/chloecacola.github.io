@@ -50,7 +50,7 @@ p {
 
 @media screen and (max-width: 992px){
 	//this to be changed to a different image
-	html {
+	#homeHTML {
 		background: url("../images/backgroundExpanded.svg")no-repeat;
 		background-size: cover;
 	}
@@ -75,7 +75,7 @@ p {
 }
 
 @media screen and (max-width: 767px) {
-	html {
+	#homeHTML {
 		background: #f8f8f8;
 	}
 
@@ -112,7 +112,7 @@ p {
 
 @media screen and (max-width: 576px) {
 	// this to be changed to a different image
-	html {
+	#homeHtml {
 		background: #f8f8f8; 
 	}
 
