@@ -81,20 +81,28 @@ p {
   #homeHtml {
     background: #f8f8f8; }
 
+  p {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+
   #tech {
     margin-bottom: 30px; }
 
   #developerTitle {
     float: none;
     color: blue;
-    text-align: center; }
+    text-align: center;
+    padding-top: 5px; }
 
   #artistTitle {
-    float: none; }
+    float: none;
+    margin: 0px; }
 
   #art {
     text-align: center;
-    background: #ffb477; }
+    background: #ffb477;
+    padding-top: 15px;
+    padding-bottom: 15px; }
 
   #about {
     padding: 10px;

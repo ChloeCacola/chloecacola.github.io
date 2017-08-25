@@ -79,6 +79,11 @@ p {
 		background: #f8f8f8;
 	}
 
+	p {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
 	#tech {
 		margin-bottom: 30px;
 	}
@@ -87,15 +92,19 @@ p {
 		float: none;
 		color: blue;
 		text-align: center;
+		padding-top: 5px;
 	}
 
 	#artistTitle {
 		float: none;
+		margin: 0px;
 	}
 
 	#art {
 		text-align: center;
 		background: #ffb477;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 
 	#about {
@@ -123,4 +132,5 @@ p {
 	#about {
 		margin-top: 0px;
 	}
+
 }
