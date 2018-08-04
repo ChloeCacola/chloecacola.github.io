@@ -6,10 +6,10 @@ sass:
   style: compressed
 prose:
   siteurl: "http://chloecorrigan.com"
-  media: 'public/assets'
+  media: 'public/assets/images'
   metadata:
     _layouts:
-      - name: "about"
+      - name: "test"
         field:
           label: "test"
           element: "text"
