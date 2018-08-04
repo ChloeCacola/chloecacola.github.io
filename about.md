@@ -1,8 +1,9 @@
 ---
 title: About page!
-test: testing custom markdown with jekyll
+test: testing custom markdown change
 layout: about
 foo: bar
+published: false
 ---
 
 <--
