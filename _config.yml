@@ -1,0 +1,8 @@
+name: Chloe Corrigan's Portfolio
+url: http://chloecorrigan.com
+include: ['.htaccess']
+sass:
+  sass_dir: ./public/assets/_scss
+  style: compressed
+prose:
+  siteurl: "http://chloecorrigan.com"
