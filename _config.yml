@@ -11,6 +11,6 @@ prose:
     _layouts:
       - name: "about"
         field:
-          label: "testing"
+          label: "test"
           element: "text"
           value: "testing value"
