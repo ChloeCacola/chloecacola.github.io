@@ -1,6 +1,6 @@
 ---
 title: About page!
-test: testing custom markdown change
+description: testing custom markdown change
 layout: about
 ---
 
