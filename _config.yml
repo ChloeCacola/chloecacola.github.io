@@ -9,8 +9,8 @@ prose:
   media: 'public/assets/images'
   metadata:
     _content:
-      - name: "test"
+      - name: "description"
         field:
-          label: "test"
+          label: "description"
           element: "text"
-          value: "testing value"
+          value: "testing changed value"
