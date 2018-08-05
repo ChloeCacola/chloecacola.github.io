@@ -8,7 +8,6 @@ prose:
   siteurl: "http://chloecorrigan.com"
   media: 'public/assets/images'
   metadata:
-    _content:
       - name: "description"
         field:
           label: "description"
