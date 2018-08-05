@@ -1,7 +1,8 @@
 ---
 title: About page!
-description: testing custom markdown change
 layout: about
+published: true
+description: change with metadata field
 ---
 
 <--
